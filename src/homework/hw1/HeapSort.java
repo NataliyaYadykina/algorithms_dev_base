@@ -1,5 +1,9 @@
 package homework.hw1;
 
+/*
+ * Реализовать алгоритм пирамидальной сортировки (сортировка кучей).
+ */
+
 public class HeapSort {
 
     public static void main(String[] args) {
