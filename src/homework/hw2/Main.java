@@ -1,6 +1,6 @@
 package homework.hw2;
 
-class sList {
+class dList {
     Node head;
     Node tail;
 
@@ -43,7 +43,7 @@ class sList {
     }
 
     void print(){
-        sList.Node cur = head;
+        Node cur = head;
         while(cur != null){
             System.out.println(cur.value);
             cur = cur.next;
@@ -55,7 +55,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        sList list = new sList();
+        dList list = new dList();
         for(int i=0; i<=10; i++) {
             list.push_front(i);
         }
