@@ -174,7 +174,7 @@ class RedBlackTreeNew {
     }
 }
 
-public class Main_new {
+public class Main_RBTree {
     public static void main(String[] args) {
         RedBlackTreeNew tree = new RedBlackTreeNew();
 
